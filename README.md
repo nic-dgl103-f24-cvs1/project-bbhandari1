@@ -45,7 +45,7 @@ Visitors should be able to:
 
 ### Colours:
 
-- **Primary**: Blue (#0071bc) - Represents reliability and professionalism.
+- **Primary**: Blue (#001836) - Represents reliability and professionalism.
 - **Neutral**: White (#ffffff) - Modern and clean.
 - **Highlight**: Gold (#ffd700) - Adds luxury and visual interest.
 
