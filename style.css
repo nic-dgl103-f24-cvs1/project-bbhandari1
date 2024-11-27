@@ -189,3 +189,44 @@ footer p {
     font-size: 0.9em;
 }
 
+/* Media Queries for Larger Screens */
+
+@media (min-width: 1024px) {
+    .nav-mobile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .toggle{
+        display: none;
+    }
+
+    .hero {
+        padding: 150px 20px;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    
+    .services .items {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .services .service-item {
+        flex: 1 1 calc(33% - 20px);
+    }
+
+    .contact-us form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
