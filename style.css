@@ -194,6 +194,17 @@ section h2 {
     margin-top: 20px;
 }
 
+#book-now .btn {
+    background-color: #ffffff;
+    color: #001836;
+}
+
+#book-now a.btn:hover {
+    background-color: #ffd700;
+}
+
+
+
 /* Footer */
 footer {
     background: #333;
