@@ -259,6 +259,11 @@ footer ul li {
         display: none;
     }
 
+    
+    header nav ul li a:hover {
+        background-color: #ffd700;
+    }
+
     .hero {
         padding: 150px 20px;
     }
@@ -308,5 +313,10 @@ footer ul li {
     .contact-us form {
         max-width: 600px;
         margin: 0 auto;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
