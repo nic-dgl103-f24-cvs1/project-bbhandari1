@@ -246,6 +246,41 @@ footer ul li {
     list-style: none;
 }
 
+/* Table Styles */
+.table {
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    background-color: #f9f9f9;
+    color: #001836;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+th {
+    background-color: #ffd700;
+    color: #001836;
+    text-transform: uppercase;
+}
+
+th h2 {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: none;
+}
+
+
+
 /* Media Queries for Larger Screens */
 
 @media (min-width: 1024px) {
@@ -314,6 +349,14 @@ footer ul li {
         max-width: 600px;
         margin: 0 auto;
     }
+
+    
+    /* Responsive Table */
+    th, td {
+        font-size: 1.6rem;
+        padding: 10px;
+    }
+
     footer {
         display: flex;
         align-items: center;
