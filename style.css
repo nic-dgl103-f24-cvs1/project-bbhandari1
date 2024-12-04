@@ -221,9 +221,6 @@ section h2 {
 
 /* Footer */
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     background: #333;
     color: #fff;
     text-align: center;
@@ -237,6 +234,11 @@ footer p {
 
 footer ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0%;
+    gap:20px;
 }
 
 footer ul li {
