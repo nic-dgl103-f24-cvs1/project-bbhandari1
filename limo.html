@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Limousine Services</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="Images/Logo_color.png" alt="AmbassadorLogo" width="100"></a>
+        </div>
+        <nav>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul id="nav-items" class="nav-mobile">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wine.html">Wine Tours</a></li>
+                <li><a href="limo.html">Limousine Services</a></li>
+            </ul>
+          </nav>
+</header>
+<script>
+    function showNav() {
+      var element = document.getElementById("nav-items");
+      element.classList.toggle("show-items");
+    }
+  </script>
+    <main>
+    <section id="limo" class="hero">
+        <h1>Luxury Limousine Services</h1>
+        <p>Arrive in style and comfort with our premium limo service.</p>
+        <a href="#" class="btn">Book Your Ride</a>
+    </section>
+    <section>
+        <h2>About Our Limousine Services</h2>
+        <p>
+            Our limousine services provide a seamless blend of luxury, style, and professionalism. Whether it’s for weddings, corporate events, or a night out, our fleet is equipped to meet your needs. Ambassador offers quality stretch limos to Courtenay, Campbell River, Comox Valley, Cumberland, Parksville, Qualicum, and Port Alberni BC. Our limo services are perfect for all occasions including graduations, wedding events, and more.
+
+            Our commitment is to provide safe, professional, and comfortable limousine services to you and your guests for any and all occasions.
+        </p>
+    </section>
+    <section class="services">
+        <h2>Why Choose Our Limousine Services?</h2>
+        <div class="items">
+            <div class="service-item">
+                <h3>Professional Chauffeurs</h3>
+                <p>Our experienced drivers ensure a safe and stylish journey.</p>
+            </div>
+            <div class="service-item">
+                <h3>Luxurious Interiors</h3>
+                <p>Relax in spacious, comfortable, and fully equipped limousines.</p>
+            </div>
+            <div class="service-item">
+                <h3>Tailored Experiences</h3>
+                <p>Customize your ride for special events, ensuring every detail is perfect.</p>
+            </div>
+        </div>
+    </section>
+    <section id="book-now">
+        <h2>Reserve Your Limousine Today</h2>
+        <p>
+            Whether it’s a wedding, prom, or a corporate event, we have the perfect limousine for you. Reach out to us now to secure your ride.
+        </p>
+        <a href="tel:+1234567890" class="btn">Book Now</a>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ambassador Transportation. All rights reserved.</p>
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+        </ul>
+    </footer>
+</body>
+</html>

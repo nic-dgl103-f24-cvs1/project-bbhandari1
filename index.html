@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambassador Transportation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+            <div class="logo">
+            <a href="index.html"><img src="Images/Logo_color.png" alt="AmbassadorLogo" width="100"></a>
+            </div>
+            <nav>
+                <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                <ul id="nav-items" class="nav-mobile">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wine.html">Wine Tours</a></li>
+                    <li><a href="limo.html">Limousine Services</a></li>
+                </ul>
+              </nav>
+    </header>
+    <script>
+        function showNav() {
+          var element = document.getElementById("nav-items");
+          element.classList.toggle("show-items");
+        }
+      </script>
+
+    <main>
+        <section class="hero">
+            <div>
+            <h1>Your Premium Transportation Partner</h1>
+            <p>Experience luxury, reliability, and comfort with Ambassador Transportation.</p>
+            <a href="#contact" class="btn">Book Your Ride Now</a>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <h2>Ambassador Transportation</h2>
+            <p>We provide reliable and luxurious transportation services for all your travel needs, including wine tours, airport transfers, and event travel. Ambassador Transport provides shuttle service to and from the Comox Valley Airport (YQQ) and custom ground transportation on the East coast of North central Vancouver Island, BC. </p>
+            <div class="scroll_image">
+                <img src="Images/limo1.jpg" alt="Limousine black car">
+                <img src="Images/wine3.jpg" alt="wineries">
+                <img src="Images/limo2.jpg" alt="Limousine image2 for mobile home page">
+                <img src="Images/Wine1.jpg" alt="Wine farm image">
+            </div>
+            <div class="scroll_image1">
+                <img src="Images/Wine1.jpg" alt="Wine farming">
+                <img src="Images/limo1.jpg" alt="Black Limousine">
+                <img src="Images/wine3.jpg" alt="Wine bottles">
+                <img src="Images/limo2.jpg" alt="White Limousine">
+                <img src="Images/wine2.jpg" alt="Grapes for Wine">
+                <img src="Images/limo3.jpg" alt="Limousine White">
+            </div>
+           
+        </section>
+
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="items">
+            <div class="service-item">
+                <h3>Wine Tours</h3>
+                <p>Enjoy a curated wine tour with our premium transport options.</p>
+                <a href="wine.html" class="btn">Learn More</a>
+            </div>
+            <div class="service-item">
+                <h3>Limousine Services</h3>
+                <p>Arrive in style for your next event with our luxurious limousines.</p>
+                <a href="limo.html" class="btn">Learn More</a>
+            </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-us">
+            <h2>Get in Touch</h2>
+            <p>Email: info@ambassadortransportation.com | Phone: (123) 456-7890</p>
+             <form action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2013.074856390104!2d-125.00564952105583!3d49.69126577866553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813316d25abc7%3A0x9e1299c4ba3da02a!2sAmbassador%20Transportation%20and%20Tours!5e1!3m2!1sen!2sca!4v1732673716627!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Ambassador Transportation. All rights reserved.</p>
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+        </ul>
+    </footer>
+</body>
+</html>
